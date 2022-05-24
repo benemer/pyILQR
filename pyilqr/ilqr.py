@@ -1,9 +1,9 @@
 import numpy as np
 
 from dataclasses import dataclass, field
-from pyilqr.ocp import OptimalControlProblem, LQRProblem, AbstractDynamics
-from pyilqr.strategies import AbstractStrategy, AffineStrategy
-from pyilqr.lqr import IllconditionedProblemError, LQRSolver
+from .ocp import OptimalControlProblem, LQRProblem, AbstractDynamics
+from .strategies import AbstractStrategy, AffineStrategy
+from .lqr import IllconditionedProblemError, LQRSolver
 from typing import Tuple
 from copy import copy
 

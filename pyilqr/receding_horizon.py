@@ -2,8 +2,8 @@ import numpy as np
 
 from dataclasses import dataclass
 from typing import Union
-from pyilqr.strategies import AbstractStrategy, OpenLoopStrategy, FunctionStrategy
-from pyilqr.ilqr import ILQRSolver
+from .strategies import AbstractStrategy, OpenLoopStrategy, FunctionStrategy
+from .ilqr import ILQRSolver
 
 
 @dataclass(frozen=True)

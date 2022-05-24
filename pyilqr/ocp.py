@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from pyilqr.dynamics import AbstractDynamics, LinearDiscreteDynamics
-from pyilqr.costs import AbstractCost, QuadraticCost
+from .dynamics import AbstractDynamics, LinearDiscreteDynamics
+from .costs import AbstractCost, QuadraticCost
 from typing import Sequence
 
 

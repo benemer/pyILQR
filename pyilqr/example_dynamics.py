@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.axes
 
 from dataclasses import dataclass
-from pyilqr.dynamics import AbstractDynamics
+from .dynamics import AbstractDynamics
 
 
 @dataclass(frozen=True)

@@ -2,8 +2,8 @@ import numpy as np
 from dataclasses import dataclass
 
 from numpy.linalg import eigvals
-from pyilqr.strategies import AffineStrategy, AffineStageStrategy
-from pyilqr.ocp import LQRProblem
+from .strategies import AffineStrategy, AffineStageStrategy
+from .ocp import LQRProblem
 
 class IllconditionedProblemError(Exception):
     pass

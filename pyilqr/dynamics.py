@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from math import factorial
 from typing import Sequence, Tuple
 
-from pyilqr.strategies import AbstractStrategy
+from .strategies import AbstractStrategy
 
 
 @dataclass(frozen=True)

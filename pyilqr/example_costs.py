@@ -4,7 +4,7 @@ import matplotlib.axes
 
 from dataclasses import dataclass
 from typing import Sequence
-from pyilqr.costs import AbstractCost
+from .costs import AbstractCost
 
 
 @dataclass
